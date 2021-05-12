@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>AdvanceJava</display-name>
+	
+	<servlet>
+		<servlet-name>Sample</servlet-name>
+		<servlet-class>com.ojas.Sample</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.ojas.LoginServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Welcome</servlet-name>
+		<servlet-class>com.ojas.Welcome</servlet-class>
+	</servlet>
+	
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>HubbyDemo</display-name>
+		<servlet-name>HubbyDemo</servlet-name>
+		<servlet-class>com.ojas.HubbyDemo</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>MapDemo</display-name>
+		<servlet-name>MapDemo</servlet-name>
+		<servlet-class>com.ojas.MapDemo</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>GetParameterNames</display-name>
+		<servlet-name>GetParameterNames</servlet-name>
+		<servlet-class>com.ojas.GetParameterNames</servlet-class>
+	</servlet>
+	
+	<servlet>
+		
+		<servlet-name>JavaScriptServlet1</servlet-name>
+		<servlet-class>com.ojas.JavaScriptServlet1</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>RegistrationServlet</display-name>
+		<servlet-name>RegistrationServlet</servlet-name>
+		<servlet-class>com.ojas.RegistrationForm.RegistrationServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		
+<servlet-name>ListPersonsServlet</servlet-name>
+		<servlet-class>com.ojas.RegistrationForm.ListPersonsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>DeleteServlet</display-name>
+		<servlet-name>DeleteServlet</servlet-name>
+		<servlet-class>com.ojas.RegistrationForm.DeleteServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>LoginValidServlet</display-name>
+		<servlet-name>LoginValidServlet</servlet-name>
+		<servlet-class>com.ojas.RegistrationForm.LoginValidServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>UpdatePersonServlet</display-name>
+		<servlet-name>UpdatePersonServlet</servlet-name>
+		<servlet-class>com.ojas.RegistrationForm.UpdatePersonServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ContextDemo</display-name>
+		<servlet-name>ContextDemo</servlet-name>
+		<servlet-class>com.ojas.context.ContextDemo</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ContextExp1</display-name>
+		<servlet-name>ContextExp1</servlet-name>
+		<servlet-class>com.ojas.context.ContextExp1</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ContextExp2</display-name>
+		<servlet-name>ContextExp2</servlet-name>
+		<servlet-class>com.ojas.context.ContextExp2</servlet-class>
+	</servlet>
+	
+	<servlet>
+		
+		<servlet-name>ConfigDemo</servlet-name>
+		<servlet-class>com.ojas.config.ConfigDemo</servlet-class>
+		<init-param>
+			
+			<param-name>cnames</param-name>
+			<param-value>JAVA,.NET,ORACLE,TESTING</param-value>
+		</init-param>
+	</servlet>
+	
+	
+	
+	<servlet-mapping>
+		<servlet-name>Sample</servlet-name>
+		<url-pattern>/Sri</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Welcome</servlet-name>
+		<url-pattern>/age</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet-mapping>
+		<servlet-name>HubbyDemo</servlet-name>
+		<url-pattern>/HubbyDemo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MapDemo</servlet-name>
+		<url-pattern>/MapDemo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>GetParameterNames</servlet-name>
+		<url-pattern>/GetParameterNames</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>JavaScriptServlet1</servlet-name>
+		<url-pattern>/JavaScriptServlet1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>RegistrationServlet</servlet-name>
+		<url-pattern>/RegistrationServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ListPersonsServlet</servlet-name>
+		<url-pattern>/ListPersonsServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteServlet</servlet-name>
+		<url-pattern>/DeleteServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginValidServlet</servlet-name>
+		<url-pattern>/LoginValidServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdatePersonServlet</servlet-name>
+		<url-pattern>/UpdatePersonServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ContextDemo</servlet-name>
+		<url-pattern>/ContextDemo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ContextExp1</servlet-name>
+		<url-pattern>/ContextExp1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ContextExp2</servlet-name>
+		<url-pattern>/ContextExp2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ConfigDemo</servlet-name>
+		<url-pattern>/ConfigDemo</url-pattern>
+	</servlet-mapping>
+	
+	<context-param>
+         <param-name>driver</param-name>
+         <param-value>com.mysql.cj.jdbc.Driver</param-value>
+	</context-param>
+	
+	<context-param>
+         <param-name>user</param-name>
+         <param-value>root</param-value>
+	</context-param>
+	
+	<context-param>
+         <param-name>password</param-name>
+         <param-value>root</param-value>
+	</context-param>
+	
+	<context-param>
+         <param-name>url</param-name>
+         <param-value>jdbc:mysql://localhost:3306:java200</param-value>
+	</context-param>
+	
+	
+	
+	<welcome-file-list>
+		<welcome-file>Home.html</welcome-file>
+		</welcome-file-list>
+</web-app>
